@@ -1,0 +1,772 @@
+{
+  "summary": {
+    "dense": {
+      "Hit@1": 0.8333333333333334,
+      "Hit@3": 1.0,
+      "MRR@10": 0.9074074074074076
+    },
+    "hybrid": {
+      "Hit@1": 0.8888888888888888,
+      "Hit@3": 1.0,
+      "MRR@10": 0.9444444444444444
+    }
+  },
+  "queries": [
+    {
+      "query": "What does the basic mobile plan cost?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        1
+      ],
+      "dense_ids": [
+        1,
+        2,
+        5,
+        8,
+        3,
+        4,
+        12,
+        9,
+        10,
+        6
+      ],
+      "hybrid_ids": [
+        1,
+        5,
+        2,
+        8,
+        3,
+        9,
+        12,
+        4,
+        11,
+        7
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 10.620350999943184
+    },
+    {
+      "query": "Which plan includes unlimited calls and data?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        2
+      ],
+      "dense_ids": [
+        2,
+        1,
+        4,
+        5,
+        8,
+        12,
+        3,
+        9,
+        10,
+        6
+      ],
+      "hybrid_ids": [
+        2,
+        1,
+        5,
+        4,
+        3,
+        9,
+        12,
+        6,
+        10,
+        8
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 5.75293800000054
+    },
+    {
+      "query": "What is the EU roaming allowance on Unlimited?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        2
+      ],
+      "dense_ids": [
+        2,
+        1,
+        3,
+        12,
+        4,
+        5,
+        9,
+        8,
+        10,
+        11
+      ],
+      "hybrid_ids": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        11,
+        1,
+        3,
+        12,
+        7
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 5.925617999992028
+    },
+    {
+      "query": "Is there a business plan for five phone lines?",
+      "segment": "SMB",
+      "relevant_ids": [
+        3
+      ],
+      "dense_ids": [
+        3,
+        4,
+        10,
+        8,
+        6,
+        2,
+        5,
+        12,
+        11,
+        1
+      ],
+      "hybrid_ids": [
+        3,
+        4,
+        6,
+        5,
+        10,
+        8,
+        12,
+        11,
+        9,
+        2
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 7.066518000101496
+    },
+    {
+      "query": "Which service has dedicated fiber and an availability SLA?",
+      "segment": "Enterprise",
+      "relevant_ids": [
+        4
+      ],
+      "dense_ids": [
+        4,
+        11,
+        10,
+        12,
+        2,
+        6,
+        7,
+        8,
+        1,
+        3
+      ],
+      "hybrid_ids": [
+        4,
+        11,
+        10,
+        7,
+        6,
+        2,
+        12,
+        3,
+        1,
+        8
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.598244000088016
+    },
+    {
+      "query": "A customer cannot afford the bill and wants to cancel.",
+      "segment": "Consumer",
+      "relevant_ids": [
+        5
+      ],
+      "dense_ids": [
+        5,
+        9,
+        6,
+        12,
+        10,
+        11,
+        7,
+        8,
+        2,
+        1
+      ],
+      "hybrid_ids": [
+        5,
+        6,
+        9,
+        7,
+        12,
+        8,
+        10,
+        11,
+        2,
+        4
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.526344999997491
+    },
+    {
+      "query": "What discount can we offer to retain a consumer?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        5
+      ],
+      "dense_ids": [
+        5,
+        2,
+        1,
+        9,
+        8,
+        4,
+        6,
+        12,
+        7,
+        10
+      ],
+      "hybrid_ids": [
+        5,
+        8,
+        9,
+        6,
+        4,
+        12,
+        7,
+        10,
+        2,
+        1
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.555515000059131
+    },
+    {
+      "query": "A small business wants to leave after recurring outages.",
+      "segment": "SMB",
+      "relevant_ids": [
+        6
+      ],
+      "dense_ids": [
+        6,
+        10,
+        7,
+        12,
+        11,
+        8,
+        5,
+        4,
+        9,
+        3
+      ],
+      "hybrid_ids": [
+        6,
+        7,
+        10,
+        5,
+        8,
+        12,
+        3,
+        9,
+        4,
+        11
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.2499660000412405
+    },
+    {
+      "query": "How should we handle an enterprise SLA breach?",
+      "segment": "Enterprise",
+      "relevant_ids": [
+        7
+      ],
+      "dense_ids": [
+        7,
+        11,
+        10,
+        6,
+        4,
+        12,
+        8,
+        9,
+        5,
+        3
+      ],
+      "hybrid_ids": [
+        7,
+        11,
+        4,
+        10,
+        6,
+        12,
+        8,
+        9,
+        5,
+        3
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.174131999955534
+    },
+    {
+      "query": "A customer wants to cancel because of weak mobile coverage.",
+      "segment": "Consumer",
+      "relevant_ids": [
+        8
+      ],
+      "dense_ids": [
+        12,
+        8,
+        5,
+        6,
+        9,
+        10,
+        2,
+        11,
+        1,
+        7
+      ],
+      "hybrid_ids": [
+        5,
+        8,
+        12,
+        6,
+        9,
+        7,
+        10,
+        2,
+        4,
+        11
+      ],
+      "dense": {
+        "Hit@1": 0.0,
+        "Hit@3": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid": {
+        "Hit@1": 0.0,
+        "Hit@3": 1.0,
+        "MRR@10": 0.5
+      },
+      "search_and_fusion_ms": 6.365366999943944
+    },
+    {
+      "query": "Who received a refund for a duplicate September payment?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        9
+      ],
+      "dense_ids": [
+        9,
+        10,
+        12,
+        5,
+        11,
+        6,
+        7,
+        2,
+        4,
+        1
+      ],
+      "hybrid_ids": [
+        9,
+        5,
+        10,
+        12,
+        4,
+        6,
+        11,
+        7,
+        8,
+        2
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.267887000035444
+    },
+    {
+      "query": "What happened in complaint C001?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        9
+      ],
+      "dense_ids": [
+        9,
+        12,
+        10,
+        11,
+        7,
+        6,
+        5,
+        8,
+        1,
+        2
+      ],
+      "hybrid_ids": [
+        9,
+        10,
+        12,
+        11,
+        7,
+        6,
+        5,
+        8,
+        1,
+        2
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.117989000017587
+    },
+    {
+      "query": "Which complaint involved a faulty office router?",
+      "segment": "SMB",
+      "relevant_ids": [
+        10
+      ],
+      "dense_ids": [
+        10,
+        12,
+        11,
+        9,
+        6,
+        8,
+        4,
+        7,
+        5,
+        1
+      ],
+      "hybrid_ids": [
+        10,
+        12,
+        9,
+        11,
+        6,
+        4,
+        5,
+        8,
+        7,
+        1
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.35435900005632
+    },
+    {
+      "query": "What happened in complaint S001?",
+      "segment": "SMB",
+      "relevant_ids": [
+        10
+      ],
+      "dense_ids": [
+        10,
+        9,
+        11,
+        12,
+        7,
+        6,
+        5,
+        8,
+        1,
+        4
+      ],
+      "hybrid_ids": [
+        10,
+        9,
+        11,
+        12,
+        7,
+        6,
+        5,
+        8,
+        1,
+        4
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.0626610001008885
+    },
+    {
+      "query": "Which enterprise incident caused four hours of downtime?",
+      "segment": "Enterprise",
+      "relevant_ids": [
+        11
+      ],
+      "dense_ids": [
+        11,
+        10,
+        12,
+        6,
+        7,
+        4,
+        9,
+        8,
+        1,
+        2
+      ],
+      "hybrid_ids": [
+        11,
+        7,
+        8,
+        4,
+        10,
+        12,
+        5,
+        6,
+        9,
+        1
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.652801000086583
+    },
+    {
+      "query": "What happened in complaint E001?",
+      "segment": "Enterprise",
+      "relevant_ids": [
+        11
+      ],
+      "dense_ids": [
+        9,
+        10,
+        11,
+        12,
+        7,
+        6,
+        5,
+        1,
+        4,
+        2
+      ],
+      "hybrid_ids": [
+        9,
+        11,
+        10,
+        12,
+        7,
+        6,
+        5,
+        1,
+        4,
+        2
+      ],
+      "dense": {
+        "Hit@1": 0.0,
+        "Hit@3": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid": {
+        "Hit@1": 0.0,
+        "Hit@3": 1.0,
+        "MRR@10": 0.5
+      },
+      "search_and_fusion_ms": 6.845149000014317
+    },
+    {
+      "query": "Why was mobile internet slow in the evenings?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        12
+      ],
+      "dense_ids": [
+        12,
+        10,
+        8,
+        2,
+        1,
+        11,
+        4,
+        6,
+        3,
+        5
+      ],
+      "hybrid_ids": [
+        12,
+        10,
+        8,
+        2,
+        11,
+        1,
+        3,
+        5,
+        9,
+        4
+      ],
+      "dense": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.334569999921769
+    },
+    {
+      "query": "What happened in complaint C002?",
+      "segment": "Consumer",
+      "relevant_ids": [
+        12
+      ],
+      "dense_ids": [
+        9,
+        12,
+        10,
+        11,
+        6,
+        7,
+        5,
+        1,
+        8,
+        2
+      ],
+      "hybrid_ids": [
+        12,
+        9,
+        10,
+        11,
+        6,
+        7,
+        5,
+        1,
+        8,
+        2
+      ],
+      "dense": {
+        "Hit@1": 0.0,
+        "Hit@3": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid": {
+        "Hit@1": 1.0,
+        "Hit@3": 1.0,
+        "MRR@10": 1.0
+      },
+      "search_and_fusion_ms": 6.223382000030142
+    }
+  ]
+}

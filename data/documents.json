@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "type": "tariff",
+    "segment": "Consumer",
+    "text": "Consumer Basic costs 20 EUR monthly and includes 10 GB mobile data. Extra data costs 2 EUR per GB.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 2,
+    "type": "tariff",
+    "segment": "Consumer",
+    "text": "Consumer Unlimited costs 35 EUR monthly with unlimited domestic calls and mobile data. EU roaming includes 15 GB.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 3,
+    "type": "tariff",
+    "segment": "SMB",
+    "text": "SMB Team costs 100 EUR monthly for five mobile lines with shared 100 GB data and business support.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 4,
+    "type": "tariff",
+    "segment": "Enterprise",
+    "text": "Enterprise Connect offers dedicated fiber, a 99.9 percent availability SLA and a dedicated account manager. Pricing is negotiated.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 5,
+    "type": "playbook",
+    "segment": "Consumer",
+    "text": "When a consumer wants to cancel because the bill is too high, review usage and offer a cheaper plan. A retention discount of 10 percent for three months requires approval.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 6,
+    "type": "playbook",
+    "segment": "SMB",
+    "text": "For an SMB customer considering cancellation after repeated outages, escalate to business support, review service credits and arrange a technical investigation.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 7,
+    "type": "playbook",
+    "segment": "Enterprise",
+    "text": "If an enterprise customer threatens to leave after an SLA breach, notify the account manager, prepare an incident report and calculate contractual service credits.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 8,
+    "type": "playbook",
+    "segment": "Consumer",
+    "text": "When a consumer plans to leave because of poor mobile coverage, check the coverage map, investigate the location and offer Wi-Fi calling if supported.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 9,
+    "type": "complaint",
+    "segment": "Consumer",
+    "text": "Complaint C001: a consumer was charged twice for the September invoice. Billing confirmed a duplicate payment and issued a refund.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 10,
+    "type": "complaint",
+    "segment": "SMB",
+    "text": "Complaint S001: an SMB office experienced three internet outages in one week. A faulty router was replaced and a service credit was granted.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 11,
+    "type": "complaint",
+    "segment": "Enterprise",
+    "text": "Complaint E001: enterprise fiber service was unavailable for four hours. The account manager coordinated restoration and an SLA compensation review.",
+    "date": "2026-10-01",
+    "synthetic": true
+  },
+  {
+    "id": 12,
+    "type": "complaint",
+    "segment": "Consumer",
+    "text": "Complaint C002: a consumer reported slow mobile internet during evenings. Network support identified congestion and opened a capacity upgrade ticket.",
+    "date": "2026-10-01",
+    "synthetic": true
+  }
+]

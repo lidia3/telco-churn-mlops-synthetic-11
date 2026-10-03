@@ -1,0 +1,128 @@
+[
+  {
+    "query": "What does the basic mobile plan cost?",
+    "relevant_ids": [
+      1
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "Which plan includes unlimited calls and data?",
+    "relevant_ids": [
+      2
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "What is the EU roaming allowance on Unlimited?",
+    "relevant_ids": [
+      2
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "Is there a business plan for five phone lines?",
+    "relevant_ids": [
+      3
+    ],
+    "segment": "SMB"
+  },
+  {
+    "query": "Which service has dedicated fiber and an availability SLA?",
+    "relevant_ids": [
+      4
+    ],
+    "segment": "Enterprise"
+  },
+  {
+    "query": "A customer cannot afford the bill and wants to cancel.",
+    "relevant_ids": [
+      5
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "What discount can we offer to retain a consumer?",
+    "relevant_ids": [
+      5
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "A small business wants to leave after recurring outages.",
+    "relevant_ids": [
+      6
+    ],
+    "segment": "SMB"
+  },
+  {
+    "query": "How should we handle an enterprise SLA breach?",
+    "relevant_ids": [
+      7
+    ],
+    "segment": "Enterprise"
+  },
+  {
+    "query": "A customer wants to cancel because of weak mobile coverage.",
+    "relevant_ids": [
+      8
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "Who received a refund for a duplicate September payment?",
+    "relevant_ids": [
+      9
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "What happened in complaint C001?",
+    "relevant_ids": [
+      9
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "Which complaint involved a faulty office router?",
+    "relevant_ids": [
+      10
+    ],
+    "segment": "SMB"
+  },
+  {
+    "query": "What happened in complaint S001?",
+    "relevant_ids": [
+      10
+    ],
+    "segment": "SMB"
+  },
+  {
+    "query": "Which enterprise incident caused four hours of downtime?",
+    "relevant_ids": [
+      11
+    ],
+    "segment": "Enterprise"
+  },
+  {
+    "query": "What happened in complaint E001?",
+    "relevant_ids": [
+      11
+    ],
+    "segment": "Enterprise"
+  },
+  {
+    "query": "Why was mobile internet slow in the evenings?",
+    "relevant_ids": [
+      12
+    ],
+    "segment": "Consumer"
+  },
+  {
+    "query": "What happened in complaint C002?",
+    "relevant_ids": [
+      12
+    ],
+    "segment": "Consumer"
+  }
+]
